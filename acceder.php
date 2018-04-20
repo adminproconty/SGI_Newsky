@@ -7,7 +7,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>SOLVentas | Sistema de Ventas</title>
+    <title>SGI | Sistema Gestión Integral</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.5 -->
@@ -46,7 +46,7 @@
                           <!-- Add the bg color to the header using any of the bg-* classes -->
                           <div class="widget-user-header bg-yellow">
                             <div class="widget-user-image">
-                              <img class="img-circle" src="<?php echo $_SESSION["foto"]; ?>" alt="Usuario">
+                              <img class="img-square" src="<?php echo $_SESSION["foto"]; ?>" alt="Usuario">
                             </div><!-- /.widget-user-image -->
                             <h3 class="widget-user-username"><?php echo $_SESSION["empleado"]; ?></h3>
                             <h5 class="widget-user-desc"><?php echo $_SESSION["tipo_usuario"]; ?></h5>
@@ -54,8 +54,8 @@
                           <div class="box-footer no-padding">
                             <ul class="nav nav-stacked">
                               <li><a href="#"><strong>Documento:</strong>&nbsp; <?php echo $_SESSION["tipo_documento"]." ".$_SESSION["num_documento"]; ?><span class="pull-right badge bg-red"><i class="fa fa-fw fa-book"></i></span></a></li>
-                              <li><a href="#"><strong>Telefono:</strong>&nbsp; <?php echo $_SESSION["telefono"]?> <span class="pull-right badge bg-blue"><i class="fa fa-fw fa-mobile-phone"></i></span></a></li>
-                              <li><a href="#"><strong>Direccion:</strong>&nbsp; <?php echo $_SESSION["direccion"]?> <span class="pull-right badge bg-aqua"><i class="fa fa-fw fa-taxi"></i></span></a></li>
+                              <li><a href="#"><strong>Teléfono:</strong>&nbsp; <?php echo $_SESSION["telefono"]?> <span class="pull-right badge bg-blue"><i class="fa fa-fw fa-mobile-phone"></i></span></a></li>
+                              <li><a href="#"><strong>Dirección:</strong>&nbsp; <?php echo $_SESSION["direccion"]?> <span class="pull-right badge bg-aqua"><i class="fa fa-fw fa-taxi"></i></span></a></li>
                               <li><a href="#"><strong>Email:</strong>&nbsp; <?php echo $_SESSION["email"]?> <span class="pull-right badge bg-green"><i class="fa fa-fw fa-envelope"></i></span></a></li>
                               <li><a href="#"><strong>Usuario:</strong>&nbsp; <?php echo $_SESSION["login"]?> <span class="pull-right badge bg-aqua"><i class="fa fa-fw fa-user"></i></span></a></li>
                             </ul>
@@ -93,7 +93,7 @@
                 <div class="box-body no-padding">
                   <table class="table table-hover" id="tblSucursal">
                     <tr>                      
-                      <th>Opcion</th>
+                      <th>Opción</th>
                       <th>Sucursal</th>
                       <th>Logo</th>
                       
